@@ -1,0 +1,122 @@
+Version Control
+---------------
+This like multiple version(Updates)
+we can go back to previous data 
+Def :- Version Control System is a tool that help to track changes in code
+Git Version Control system is,
+1) populer
+2) free & open source
+3) fast & scalable
+
+This Tackers Full codebase history, when the file added, when the file created, when the file is modified
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git init 
+--------
+Is to initialize git in local repository
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Commit 
+----------
+Is use to commit (Save the code) in local repository
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Skipping 
+------------
+Staging area is (git commit -a -m "message_to_give")
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git diff command
+----------------
+This is use to find the differences between what we have worked and what is already their
+
+After the git add, we can't find the differences in the modification
+
+We can get the difference after adding to Staging by using (git diff --staged)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Remove Files
+----------------
+We can remove the staged code/committed code by using {git rm --cached filename}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+GitHub repository
+-----------------
+There are multiple remote repository
+What is remote repository?
+Let's take we are a team of 5 members to work on project. We can collaborate and do the project by using this tools to push code to them(github,gitlab,bitbucket)
+they are use to store the anything we want in them, but github is for everyone, gitlab is for more private and mostly use by company's, and the atlassian_bitbucket us mostly use by them selfs and some of them "In my opinion".
+
+
+We can clone the github repo to our local system by using {git clone and the https://the_code_you_get_from_their}
+
+When we are using remote repository we need to use HTTP/SSH, If we use HTTP we need to login every time, But use SSH we need to config once.
+we need to use this send the local repo to remote repo
+step1: echo "# repo_name" >> README.md
+step2: git init
+step3: git add README.md
+step4: git commit -m "message_what_we_want_to_give"
+step5: git branch -m main(We can use what ever we want)
+step6: git remote add origin SSH_Link/HTTP_link (Based on what we are using)
+step7: git push -u origin main
+git push -u origin main --> {
+    1. push is we are pushing the data from local repo to remote repo
+    2. -u is upstream 
+    3. main is branch name
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Github Adding files to Remote Repository
+----------------------------------------
+We need to use the command to move the new files or modified files in local repo to remote repo
+{
+    git push origin main (git->command, push->is use to push the files, origin->is use to make this to connect to the correct repo, main is branch_name)
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Tag
+-------
+Git tag will show how many tags we have
+{
+    git tag
+}
+There are two type in tagging
+1. Lightweight tagging
+    Simple tags like keywords.
+    Used to organize or find content.
+    Example: Tagging a photo with "beach" or "sunset".
+
+2. Annotated tagging
+    Detailed labels added to parts of text or data.
+    Used to understand or train AI.
+    Example: Marking "John" as a person and "Paris" as a place in a sentence.
+
+In short:
+Lightweight tagging = quick and basic.
+Annotated tagging = deep and detailed.
+
+The tagging is works by using
+{
+    git tag -a tag_number/tag_name -m "Message we wants to give"(as like commit)
+}
+
+To see the Detailed information on tag
+{
+    git show tag_name/tag_number
+}
+
+To push the tags to remote repo we need to use
+{
+    git push origin tag_name/tag_number
+}
+
+*** Even though we push by committing we need to push tag by using the above tag***
+
