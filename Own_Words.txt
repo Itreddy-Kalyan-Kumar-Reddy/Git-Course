@@ -4,7 +4,7 @@ This like multiple version(Updates)
 we can go back to previous data 
 Def :- Version Control System is a tool that help to track changes in code
 Git Version Control system is,
-1) populer
+1) popular
 2) free & open source
 3) fast & scalable
 
@@ -52,6 +52,7 @@ There are multiple remote repository
 What is remote repository?
 Let's take we are a team of 5 members to work on project. We can collaborate and do the project by using this tools to push code to them(github,gitlab,bitbucket)
 they are use to store the anything we want in them, but github is for everyone, gitlab is for more private and mostly use by company's, and the atlassian_bitbucket us mostly use by them selfs and some of them "In my opinion".
+I'm using GITHUB for this.
 
 
 We can clone the github repo to our local system by using {git clone and the https://the_code_you_get_from_their}
@@ -118,5 +119,45 @@ To push the tags to remote repo we need to use
     git push origin tag_name/tag_number
 }
 
-*** Even though we push by committing we need to push tag by using the above tag***
+*** Even though we push by committing we need to push tag by using the above tag command***
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Clone a project
+-------------------
+We can clone other repo form github to our local system by using this command
+{
+    git clone HTTP_link/SSH_Link
+}
+
+to see git logs all in one lone we use
+{
+    git log --pretty=oneline
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Branch Create
+-----------------
+To switch between branches we use
+{
+    git switch branch_name
+}
+
+Before switch we need to create new branch
+{
+    git checkout -b branch_name (-b is like to create new branch)
+    or
+    git checkout --branch branch_name
+}
+
+To see how many branches we have
+{
+    git branch
+}
+
+
+
+
+
 
