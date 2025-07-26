@@ -146,15 +146,39 @@ To switch between branches we use
 
 Before switch we need to create new branch
 {
+    Checkout
+    --------
     git checkout -b branch_name (-b is like to create new branch)
     or
     git checkout --branch branch_name
+
+    
 }
 
 To see how many branches we have
 {
     git branch
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Branch Delete
+-----------------
+To switch to previous branch we need to use
+{
+    git switch -
+}
+
+To delete the branch we need to use
+{
+    git branch -d branch_name
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git Branch pushing to Remote Repository
+---------------------------------------
+
 
 
 
