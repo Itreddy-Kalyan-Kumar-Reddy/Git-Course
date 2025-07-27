@@ -197,7 +197,11 @@ we can see the commits in graphical
 
 Git Merge
 ---------
-
+IF we need merge the branch's, then we need to be in main/master branch
+After go to main branch, we can use this command to merge the branch's
+{
+    git merge branch_name
+}
 
 
 
