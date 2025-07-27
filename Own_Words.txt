@@ -180,7 +180,7 @@ Git Branch pushing to Remote Repository
 ---------------------------------------
 To push the code to remote repo from new branch
 {
-    git push origin new_branch_name
+    git push origin (Which branch we need to push)
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -202,6 +202,22 @@ After go to main branch, we can use this command to merge the branch's
 {
     git merge branch_name
 }
+
+-> Before merging first pull the repository, then merge and push to remote repo
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Git pull
+--------
+To pull repo from remote repo to local repo, by using
+{
+    git pull origin (Which branch we need to pull)
+}
+
+
+
+Git Merge Conflict
+------------------
 
 
 
