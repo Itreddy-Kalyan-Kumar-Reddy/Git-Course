@@ -227,6 +227,9 @@ Git Rebase
 ----------
 Merge/Rebase is use to merge the branches
 By using rebase to, we see only one flow
--> Lets take one case 
+This give no sense in terms of history, This will resolve by Rebase
+This gives an advantage, It shows only single line in branch graph even though we have multiple branches.
+We can see branch by brach difference and it reduce the merge Conflict.
+The branch looks clean.
 
 
