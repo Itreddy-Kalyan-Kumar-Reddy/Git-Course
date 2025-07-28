@@ -247,3 +247,12 @@ While we are working with multiple branches in same file
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Git Time Travel
+---------------
+Lets consider we had build a application we want to make smaller version of that application,
+the we can make it from going to exact commit as low graded level of teh application.
+we want to go that commit id copy that and wants to go back by using
+{
+    git checkout commit_id
+}
+
