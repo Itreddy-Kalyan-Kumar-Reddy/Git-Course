@@ -242,3 +242,7 @@ Git Merge Conflict
 This occurs when two committed log merges
 When we are working with two branches in same file and the same like it will get Conflict
 
+to use this
+{
+    
+}
