@@ -214,19 +214,19 @@ To pull repo from remote repo to local repo, by using
     git pull origin (Which branch we need to pull)
 }
 
-
-
-Git Merge Conflict
-------------------
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Git Rebase
 ----------
 Merge/Rebase is use to merge the branches
 By using rebase to, we see only one flow
--> Lets take one case 
+This give no sense in terms of history, This will resolve by Rebase
+This gives an advantage, It shows only single line in branch graph even though we have multiple branches.
+We can see branch by brach difference and it reduce the merge Conflict.
+The branch looks clean.
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Git Merge Conflict
+------------------
+This occurs when two committed log merges
