@@ -242,7 +242,8 @@ Git Merge Conflict
 This occurs when two committed log merges
 When we are working with two branches in same file and the same like it will get Conflict
 
-to use this
-{
-    
-}
+To avoid the merge Conflict we need to select explicitly what commit we need take in to the main brach.
+While we are working with multiple branches in same file
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
