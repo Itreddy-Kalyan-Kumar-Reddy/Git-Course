@@ -214,14 +214,6 @@ To pull repo from remote repo to local repo, by using
     git pull origin (Which branch we need to pull)
 }
 
-
-
-Git Merge Conflict
-------------------
-This occurs when two committed log merges
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Git Rebase
@@ -233,4 +225,8 @@ This gives an advantage, It shows only single line in branch graph even though w
 We can see branch by brach difference and it reduce the merge Conflict.
 The branch looks clean.
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Git Merge Conflict
+------------------
+This occurs when two committed log merges
