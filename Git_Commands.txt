@@ -102,3 +102,6 @@ Advanced
 | `git reflog`               | Show history of HEAD                        |
 | `git bisect`               | Binary search to find faulty commit         |
 | `git blame <file>`         | Show who made each line change              |
+
+
+All the above commands are Git commands.
