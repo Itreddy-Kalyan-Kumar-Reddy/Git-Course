@@ -225,12 +225,23 @@ This gives an advantage, It shows only single line in branch graph even though w
 We can see branch by brach difference and it reduce the merge Conflict.
 The branch looks clean.
 
+We want to do commit in both the new_branch and teh main brach to see the Conflict is there or not
+by using rebase we can't see multiple branch.
+
+There is not Conflict while working in different files
+
+to do rebase ew need to use
+{
+    git rebase branch_name
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Git Merge Conflict
 ------------------
 This occurs when two committed log merges
-
-
-
-
+When we are working with two branches in same file and the same like it will get Conflict
+to use this
+{
+    
+}
